@@ -21,7 +21,6 @@ header img {
     max-height: 100px;
 }
 .main {
-    min-height: calc(100vh - 150px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +40,7 @@ header img {
 }
 .column {
     width: 400px;
-    padding: 100px 50px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
