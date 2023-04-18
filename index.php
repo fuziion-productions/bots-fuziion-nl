@@ -1,41 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REFUZIION - Discord Bots</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>My Discord Bots</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="section">
-            <img src="https://refuzion.nl/wp-content/uploads/2023/01/fuziondevelopment-1-1024x387.png">
-            <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+            <img src="https://refuzion.nl/wp-content/uploads/2023/01/fuziondevelopment-1-1024x387.png" class="max-h-16">
         </div>
     </header>
-    <content class="main">
-        <div class="section">
-            <div class="column">
-                <img src="assets/img/favicon.png">
-                <h2>Roovy</h2>
-                <p>Status: <?php echo (shell_exec("sudo -S pm2 pid RoovyJS") != 0) ? "<strong style='color: lime'>Online</strong>" : "<strong style='color: red'>Offline</strong>" ?></p>
-                <p>A music bot that can play songs from SoundCloud, YouTube and Spotify!</p>
-                <p>Prefix: - (Changable with the command: -config)</p>
-                <a href="https://discord.com/api/oauth2/authorize?client_id=909172011920678983&permissions=8&scope=bot%20applications.commands" class="invite-btn">Add to your server</a>
+    <main class="flex items-center justify-center py-12">
+        <div class="max-w-7xl mx-auto px-4 py-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            <div class="p-6 bg-gray-700 rounded-lg flex flex-col items-center">
+                <img src="assets/img/fusion.png" class="w-36 h-36 rounded-full mb-6">
+                <h2 class="text-3xl font-bold mb-2">Fusion</h2>
+                <p>Status: <?php echo (shell_exec("sudo -S pm2 pid Fusion") != 0) ? "<strong class='text-green-500'>Online</strong>" : "<strong class='text-red-500'>Offline</strong>" ?></p>
+                <p class="text-center">An all round discord bot.</p>
+                <p class="text-center">Prefix: None (Uses slash commands see: /help)</p>
+                <a href="#" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Comming Soon
+                </a>
             </div>
-            <div class="column">
-                <img src="https://dashboard.fuziion.nl/assets/img/valiion.png">
-                <h2>VALIION</h2>
-                <p>Status: <?php echo (shell_exec("sudo -S pm2 pid VALIION") != 0) ? "<strong style='color: lime'>Online</strong>" : "<strong style='color: red'>Offline</strong>" ?></p>
-                <p>A VALORANT stats information bot.</p>
-                <p>Prefix: None (Uses slash commands see: /help)</p>
-                <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=1080095856616820736&permissions=8&scope=bot%20applications.commands" class="invite-btn">Add to your server</a>
+            <div class="p-6 bg-gray-700 rounded-lg flex flex-col items-center">
+                <img src="assets/img/favicon.png" class="w-36 h-36 rounded-full mb-6">
+                <h2 class="text-3xl font-bold mb-2">Roovy</h2>
+                <p>Status: <?php echo (shell_exec("sudo -S pm2 pid RoovyJS") != 0) ? "<strong class='text-green-500'>Online</strong>" : "<strong class='text-red-500'>Offline</strong>" ?></p>
+                <p class="text-center">A simple music bot with spotify support.</p>
+                <p class="text-center">Prefix: - (can change in -config)</p>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=909172011920678983&permissions=8&scope=bot%20applications.commands" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Add to your server
+                </a>
+            </div>
+            <div class="p-6 bg-gray-700 rounded-lg flex flex-col items-center">
+                <img src="assets/img/valiion.png" class="w-36 h-36 rounded-full mb-6">
+                <h2 class="text-3xl font-bold mb-2">VALIION</h2>
+                <p>Status: <?php echo (shell_exec("sudo -S pm2 pid VALIION") != 0) ? "<strong class='text-green-500'>Online</strong>" : "<strong class='text-red-500'>Offline</strong>" ?></p>
+                <p class="text-center">A VALORANT stats information bot.</p>
+                <p class="text-center">Prefix: None (Uses slash commands see: /help)</p>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=1080095856616820736&permissions=8&scope=bot%20applications.commands" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Add to your server
+                </a>
             </div>
         </div>
-    </content>
-    <footer>
-        <p class="copy"><a target="_blank" href="https://refuzion.nl/">REFUZIION</a> © 2023</p>
+    </main>
+    <footer class="bg-gray-800 text-white fixed bottom-0 w-full">
+        <div class="w-full px-4 py-4 flex flex-col sm:flex-row items-center text-center">
+            <p class="w-full text-white text-center">&copy; 2023 My Discord Bots</p>
+        </div>
     </footer>
 </body>
+
 </html>
