@@ -21,7 +21,7 @@
                 <h2 class="text-3xl font-bold mb-2">Fusion</h2>
                 <p>Status: <?php echo (shell_exec("sudo -S pm2 pid Fusion") != 0) ? "<strong class='text-green-500'>Online</strong>" : "<strong class='text-red-500'>Offline</strong>" ?></p>
                 <p class="text-center">An all round discord bot.</p>
-                <p class="text-center">Prefix: None (Uses slash commands see: /help)</p>
+                <p class="text-center mb-5">Prefix: None (Uses slash commands see: /help)</p>
                 <a href="#" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Comming Soon
                 </a>
