@@ -32,7 +32,7 @@
                 <p>Status: <?php echo (shell_exec("sudo -S pm2 pid RoovyJS") != 0) ? "<strong class='text-green-500'>Online</strong>" : "<strong class='text-red-500'>Offline</strong>" ?></p>
                 <p class="text-center">A simple music bot with spotify support.</p>
                 <p class="text-center">Prefix: - (can change in -config)</p>
-                <a href="https://discord.com/api/oauth2/authorize?client_id=909172011920678983&permissions=8&scope=bot%20applications.commands" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=909172011920678983&permissions=8&scope=bot%20applications.commands" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Add to your server
                 </a>
             </div>
@@ -42,7 +42,7 @@
                 <p>Status: <?php echo (shell_exec("sudo -S pm2 pid VALIION") != 0) ? "<strong class='text-green-500'>Online</strong>" : "<strong class='text-red-500'>Offline</strong>" ?></p>
                 <p class="text-center">A VALORANT stats information bot.</p>
                 <p class="text-center">Prefix: None (Uses slash commands see: /help)</p>
-                <a href="https://discord.com/api/oauth2/authorize?client_id=1080095856616820736&permissions=8&scope=bot%20applications.commands" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=1080095856616820736&permissions=8&scope=bot%20applications.commands" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Add to your server
                 </a>
             </div>
