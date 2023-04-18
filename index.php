@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Discord Bots</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <title>FUZIION | Discord Bots</title>
+    <link href="assets/css/tailwind.min.css" rel="stylesheet">
 </head>
 
 <body class="bg-gray-900 text-white">
