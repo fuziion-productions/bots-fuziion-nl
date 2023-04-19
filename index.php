@@ -18,7 +18,7 @@
         <div class="max-w-7xl mx-auto px-4 py-8 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div class="p-6 bg-gray-700 rounded-lg flex flex-col items-center">
                 <img src="assets/img/fusion.png" class="w-36 h-36 rounded-full mb-6">
-                <h2 class="text-3xl font-bold mb-2">Fusion</h2>
+                <h3 class="text-2xl font-bold mb-2">Fusion</h3>
                 <p>Status: <?php echo (shell_exec("sudo -S pm2 pid Fusion") != 0) ? "<strong class='text-green-500'>DevBuild</strong>" : "<strong class='text-red-500'>DevBuild</strong>" ?></p>
                 <p class="text-center">An all round discord bot.</p>
                 <p class="text-center mb-5">Prefix: None (Uses slash commands see: /help)</p>
@@ -28,7 +28,7 @@
             </div>
             <div class="p-6 bg-gray-700 rounded-lg flex flex-col items-center">
                 <img src="assets/img/favicon.png" class="w-36 h-36 rounded-full mb-6">
-                <h2 class="text-3xl font-bold mb-2">Roovy</h2>
+                <h3 class="text-2xl font-bold mb-2">Roovy</h3>
                 <p>Status: <?php echo (shell_exec("sudo -S pm2 pid RoovyJS") != 0) ? "<strong class='text-green-500'>Online</strong>" : "<strong class='text-red-500'>Offline</strong>" ?></p>
                 <p class="text-center">A simple music bot with spotify support.</p>
                 <p class="text-center mb-5">Prefix: - (can change in -config)</p>
@@ -38,7 +38,7 @@
             </div>
             <div class="p-6 bg-gray-700 rounded-lg flex flex-col items-center">
                 <img src="assets/img/valiion.png" class="w-36 h-36 rounded-full mb-6">
-                <h2 class="text-3xl font-bold mb-2">VALIION</h2>
+                <h3 class="text-2xl font-bold mb-2">VALIION</h3>
                 <p>Status: <?php echo (shell_exec("sudo -S pm2 pid VALIION") != 0) ? "<strong class='text-green-500'>Online</strong>" : "<strong class='text-red-500'>Offline</strong>" ?></p>
                 <p class="text-center">A VALORANT stats information bot.</p>
                 <p class="text-center mb-5">Prefix: None (Uses slash commands see: /help)</p>
@@ -50,7 +50,7 @@
     </main>
     <footer class="bg-gray-800 text-white fixed bottom-0 w-full">
         <div class="w-full px-4 py-4 flex flex-col sm:flex-row items-center text-center">
-            <p class="w-full text-white text-center">&copy; 2023 My Discord Bots</p>
+            <p class="w-full text-white text-center">&copy; 2023 <a href="https://refuzion.nl" class="text-red-400 hover:text-red-100">REFUZIION Development</a></p>
         </div>
     </footer>
 </body>
