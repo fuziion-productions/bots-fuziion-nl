@@ -22,8 +22,8 @@
                 <p>Status: <?php echo (shell_exec("sudo -S pm2 pid Fusion") != 0) ? "<strong class='text-green-500'>DevBuild</strong>" : "<strong class='text-red-500'>DevBuild</strong>" ?></p>
                 <p class="text-center">An all round discord bot.</p>
                 <p class="text-center mb-5">Prefix: None (Uses slash commands see: /help)</p>
-                <a href="#" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                    Comming Soon
+                <a href="https://beta.fuziion.nl/" class="mt-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Go to Beta Dashboard
                 </a>
             </div>
             <div class="p-6 bg-gray-700 rounded-lg flex flex-col items-center">
